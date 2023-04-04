@@ -1,0 +1,249 @@
+/* THE MOBILE FIRST SOLUTION */
+/* Under the XXXpx */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+/********************/
+/* Global Style */
+/********************/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  /* The Typography */
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+
+  /* The Background */
+  background-color: #0d192c;
+
+  /* To center the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  /* The Box Model */
+  max-width: 327px;
+  /* The Background */
+  background: #15263f;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+}
+
+.container {
+  /* The Box Model */
+  width: 85%;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.flex-row {
+  /* The Flexbox */
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  /* The Flexbox */
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  /* The Flexbox */
+  gap: 24px;
+}
+
+/********************/
+/* Component Style */
+/********************/
+
+/* The img area */
+/**********************/
+.nft__img-area {
+}
+.nft__img {
+  /* The Box Model */
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+/* The content area */
+/**********************/
+.nft__content-area {
+  /* The Flexbox */
+  gap: 16px;
+}
+
+/* The text area */
+/**********************/
+.nft__text-area {
+  /* The Flexbox */
+  gap: 12px;
+}
+.nft__title {
+  /* The Typography */
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.nft__title-link:link,
+.nft__title-link:visited {
+  /* The Typography */
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+
+  /* The Link */
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nft__title-link:hover,
+.nft__title-link:active {
+  color: #00fff8;
+}
+
+.nft__title-span {
+}
+.nft__description {
+  /* The Typography */
+  font-weight: 300;
+  line-height: 26px;
+  color: #8bacd9;
+}
+
+/* The details area */
+/**********************/
+.nft__details-area {
+  /* The Flexbox */
+  gap: 16px;
+}
+.nth__icon-area {
+  /* The Flexbox */
+  justify-content: space-between;
+}
+
+/* The price area */
+/**********************/
+.nft__price-area {
+  /* The Flexbox */
+  gap: 6.48px;
+  align-items: center;
+}
+.nft__price-icon {
+  /* The Display */
+  width: 11px;
+  height: 18px;
+}
+.nft__price {
+  /* The Typography */
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #00fff8;
+}
+.nft__price-type {
+}
+
+/* The time area */
+/**********************/
+.nft__time-area {
+  /* The Flexbox */
+  gap: 9.03px;
+  align-items: center;
+}
+.nft__time-icon {
+  /* The Display */
+  width: 16px;
+  height: 16px;
+}
+.nft__time {
+  /* The Typography */
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #8bacd9;
+}
+.nft__time-type {
+}
+
+/* The footer area */
+/**********************/
+.nft__footer-area {
+  /* The Flexbox */
+  gap: 16px;
+}
+.divider {
+  /* The Display */
+  height: 1px;
+  background: #2e405a;
+}
+
+/* The writer area */
+/**********************/
+.nft__writer-area {
+  /* The Flexbox */
+  gap: 16px;
+  align-items: center;
+}
+.nft__writer-avatar {
+  /* The Display */
+  display: block;
+  width: 33px;
+  height: 33px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.nft__writer-name {
+  /* The Typography */
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.nft__writer-name-link:link,
+.nft__writer-name-link:visited {
+  /* The Typography */
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #ffffff;
+
+  /* The Link */
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nft__writer-name-link:hover,
+.nft__writer-name-link:active {
+  color: #00fff8;
+}
+
+.nft__writer-name-span {
+  /* The Typography */
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #8bacd9;
+}

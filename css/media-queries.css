@@ -1,0 +1,88 @@
+/* THE SETTINGS FOR DESKTOPS */
+/* Above the 375px */
+
+@media (min-width: 375px) {
+  /********************/
+  /* Global Style */
+  /********************/
+
+  .wrapper {
+    /* The Box Model */
+    max-width: 350px;
+  }
+
+  .container {
+    /* The Box Model */
+    width: 86.28%;
+    margin: 0 auto;
+    padding: 24px 0 32px 0;
+  }
+
+  /********************/
+  /* Component Style */
+  /********************/
+
+  /* The content area */
+  /**********************/
+  .nft__content-area {
+    /* The Flexbox */
+    gap: 24px;
+  }
+
+  /* The text area */
+  /**********************/
+  .nft__text-area {
+    /* The Flexbox */
+    gap: 16px;
+  }
+
+  /* The details area */
+  /**********************/
+  .nft__details-area {
+    /* The Flexbox */
+    gap: 24px;
+  }
+
+  /* The price area */
+  /**********************/
+  .nft__price {
+    /* The Typography */
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /* The time area */
+  /**********************/
+  .nft__time-icon {
+    /* The Display */
+    width: 13.33px;
+    height: 13.33px;
+  }
+  .nft__time {
+    /* The Typography */
+    font-size: 16px;
+    line-height: 20px;
+    color: #8bacd9;
+  }
+
+  /* The writer area */
+  /**********************/
+  .nft__writer-name {
+    /* The Typography */
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .nft__writer-name-link:link,
+  .nft__writer-name-link:visited {
+    /* The Typography */
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .nft__writer-name-span {
+    /* The Typography */
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

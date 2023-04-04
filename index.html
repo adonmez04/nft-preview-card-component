@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT preview card component</title>
+    <link rel="stylesheet" href="./sytles.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="container flex-column layout">
+          <div class="nft__img-area">
+            <img src="./images/image-equilibrium.jpg" alt="" class="nft__img" />
+          </div>
+          <div class="nft__content-area flex-column">
+            <div class="nft__text-area flex-column">
+              <h1 class="nft__title">
+                <a href="#" class="nft__title-link">
+                  Equilibrium <span class="nft__title-span">#3429</span>
+                </a>
+              </h1>
+              <p class="nft__description">
+                Our Equilibrium collection promotes balance and calm.
+              </p>
+            </div>
+            <div class="nft__details-area flex-column">
+              <div class="nth__icon-area flex-row">
+                <div class="nft__price-area flex-row">
+                  <img
+                    src="./images/icon-ethereum.svg"
+                    alt=""
+                    class="nft__price-icon"
+                  />
+                  <p class="nft__price">
+                    0.041 <span class="nft__price-type">ETH</span>
+                  </p>
+                </div>
+                <div class="nft__time-area flex-row">
+                  <img
+                    src="./images/icon-clock.svg"
+                    alt=""
+                    class="nft__time-icon"
+                  />
+                  <p class="nft__time">
+                    3 <span class="nft__time-type">days left</span>
+                  </p>
+                </div>
+              </div>
+              <div class="nft__footer-area flex-column">
+                <div class="divider"></div>
+                <div class="nft__writer-area flex-row">
+                  <img
+                    src="./images/image-avatar.png"
+                    alt=""
+                    class="nft__writer-avatar"
+                  />
+                  <p class="nft__writer-name">
+                    <span class="nft__writer-name-span">Creation of</span>
+                    <a href="#" class="nft__writer-name-link">Jules Wyvern</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
