@@ -14,9 +14,9 @@ Please check the latest version of the project for a better and complete solutio
 
 ## Links
 
-- [My Live Site](My-live-site-in-github.io)
+- [My Live Site](https://adonmez04.github.io/nft-preview-card-component/)
 
-- [My Solution Page](My-Project-Page-in-frontendmentor.io)
+- [My Solution Page](https://www.frontendmentor.io/solutions/nft-preview-card-component-Hyp1ryZs3I)
 
 - [The Challenge Page](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 
